@@ -38,9 +38,9 @@ namespace Ejercicios_DEIN_CSharp
             // 
             // btnArea
             // 
-            this.btnArea.Location = new System.Drawing.Point(17, 44);
+            this.btnArea.Location = new System.Drawing.Point(3, 29);
             this.btnArea.Name = "btnArea";
-            this.btnArea.Size = new System.Drawing.Size(112, 23);
+            this.btnArea.Size = new System.Drawing.Size(108, 23);
             this.btnArea.TabIndex = 0;
             this.btnArea.Text = "Area Triangulo";
             this.btnArea.UseVisualStyleBackColor = true;
@@ -48,9 +48,9 @@ namespace Ejercicios_DEIN_CSharp
             // 
             // btnValores
             // 
-            this.btnValores.Location = new System.Drawing.Point(135, 44);
+            this.btnValores.Location = new System.Drawing.Point(117, 29);
             this.btnValores.Name = "btnValores";
-            this.btnValores.Size = new System.Drawing.Size(112, 23);
+            this.btnValores.Size = new System.Drawing.Size(108, 23);
             this.btnValores.TabIndex = 1;
             this.btnValores.Text = "Comprobar Valores";
             this.btnValores.UseVisualStyleBackColor = true;
@@ -58,9 +58,9 @@ namespace Ejercicios_DEIN_CSharp
             // 
             // btnSuma
             // 
-            this.btnSuma.Location = new System.Drawing.Point(253, 44);
+            this.btnSuma.Location = new System.Drawing.Point(231, 29);
             this.btnSuma.Name = "btnSuma";
-            this.btnSuma.Size = new System.Drawing.Size(112, 23);
+            this.btnSuma.Size = new System.Drawing.Size(108, 23);
             this.btnSuma.TabIndex = 2;
             this.btnSuma.Text = "Suma Numeros";
             this.btnSuma.UseVisualStyleBackColor = true;
@@ -68,9 +68,9 @@ namespace Ejercicios_DEIN_CSharp
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(152, 84);
+            this.btnSalir.Location = new System.Drawing.Point(117, 58);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(75, 23);
+            this.btnSalir.Size = new System.Drawing.Size(108, 23);
             this.btnSalir.TabIndex = 3;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
@@ -79,7 +79,7 @@ namespace Ejercicios_DEIN_CSharp
             // lblTxt
             // 
             this.lblTxt.AutoSize = true;
-            this.lblTxt.Location = new System.Drawing.Point(102, 13);
+            this.lblTxt.Location = new System.Drawing.Point(84, 9);
             this.lblTxt.Name = "lblTxt";
             this.lblTxt.Size = new System.Drawing.Size(173, 13);
             this.lblTxt.TabIndex = 4;
@@ -89,12 +89,15 @@ namespace Ejercicios_DEIN_CSharp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(392, 128);
+            this.ClientSize = new System.Drawing.Size(344, 88);
             this.Controls.Add(this.lblTxt);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnSuma);
             this.Controls.Add(this.btnValores);
             this.Controls.Add(this.btnArea);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "MainFrm";
             this.Text = "Ejercicios C#";
             this.ResumeLayout(false);

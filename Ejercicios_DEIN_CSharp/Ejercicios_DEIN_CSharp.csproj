@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Activities" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,10 +47,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\Comprobar_Valores.cs">
+    <Compile Include="forms\Comprobar_Valores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Comprobar_Valores.Designer.cs">
+    <Compile Include="forms\Comprobar_Valores.Designer.cs">
       <DependentUpon>Comprobar_Valores.cs</DependentUpon>
     </Compile>
     <Compile Include="MainFrm.cs">
@@ -58,27 +59,27 @@
     <Compile Include="MainFrm.Designer.cs">
       <DependentUpon>MainFrm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Area_Triangulo.cs">
+    <Compile Include="forms\Area_Triangulo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Area_Triangulo.Designer.cs">
+    <Compile Include="forms\Area_Triangulo.Designer.cs">
       <DependentUpon>Area_Triangulo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Suma_Numeros.cs">
+    <Compile Include="forms\Suma_Numeros.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Suma_Numeros.Designer.cs">
+    <Compile Include="forms\Suma_Numeros.Designer.cs">
       <DependentUpon>Suma_Numeros.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\Area_Triangulo.resx">
+    <EmbeddedResource Include="forms\Area_Triangulo.resx">
       <DependentUpon>Area_Triangulo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Comprobar_Valores.resx">
+    <EmbeddedResource Include="forms\Comprobar_Valores.resx">
       <DependentUpon>Comprobar_Valores.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Suma_Numeros.resx">
+    <EmbeddedResource Include="forms\Suma_Numeros.resx">
       <DependentUpon>Suma_Numeros.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainFrm.resx">
@@ -92,6 +93,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -106,8 +108,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Resources\" />
+    <Content Include="src\triangle.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
