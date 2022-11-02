@@ -46,17 +46,17 @@ namespace Ejercicios_DEIN_CSharp.Forms
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(83, 240);
+            this.btnSalir.Location = new System.Drawing.Point(12, 132);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(75, 23);
-            this.btnSalir.TabIndex = 0;
+            this.btnSalir.Size = new System.Drawing.Size(116, 23);
+            this.btnSalir.TabIndex = 10;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // txtBase
             // 
-            this.txtBase.Location = new System.Drawing.Point(84, 51);
+            this.txtBase.Location = new System.Drawing.Point(67, 25);
             this.txtBase.Name = "txtBase";
             this.txtBase.Size = new System.Drawing.Size(61, 20);
             this.txtBase.TabIndex = 1;
@@ -65,45 +65,45 @@ namespace Ejercicios_DEIN_CSharp.Forms
             // 
             // txtAltura
             // 
-            this.txtAltura.Location = new System.Drawing.Point(84, 104);
+            this.txtAltura.Location = new System.Drawing.Point(67, 51);
             this.txtAltura.Name = "txtAltura";
             this.txtAltura.Size = new System.Drawing.Size(61, 20);
-            this.txtAltura.TabIndex = 2;
+            this.txtAltura.TabIndex = 3;
             this.txtAltura.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtAltura.TextChanged += new System.EventHandler(this.txtAltura_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(244, 11);
+            this.label1.Location = new System.Drawing.Point(174, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(102, 13);
-            this.label1.TabIndex = 3;
+            this.label1.TabIndex = 7;
             this.label1.Text = "Área de un triangulo";
             // 
             // lblBase
             // 
             this.lblBase.AutoSize = true;
-            this.lblBase.Location = new System.Drawing.Point(26, 54);
+            this.lblBase.Location = new System.Drawing.Point(12, 28);
             this.lblBase.Name = "lblBase";
             this.lblBase.Size = new System.Drawing.Size(31, 13);
-            this.lblBase.TabIndex = 4;
+            this.lblBase.TabIndex = 0;
             this.lblBase.Text = "Base";
             // 
             // lblAltura
             // 
             this.lblAltura.AutoSize = true;
-            this.lblAltura.Location = new System.Drawing.Point(26, 111);
+            this.lblAltura.Location = new System.Drawing.Point(12, 54);
             this.lblAltura.Name = "lblAltura";
             this.lblAltura.Size = new System.Drawing.Size(34, 13);
-            this.lblAltura.TabIndex = 5;
+            this.lblAltura.TabIndex = 2;
             this.lblAltura.Text = "Altura";
             // 
             // btnArea
             // 
-            this.btnArea.Location = new System.Drawing.Point(73, 151);
+            this.btnArea.Location = new System.Drawing.Point(12, 103);
             this.btnArea.Name = "btnArea";
-            this.btnArea.Size = new System.Drawing.Size(98, 23);
+            this.btnArea.Size = new System.Drawing.Size(116, 23);
             this.btnArea.TabIndex = 6;
             this.btnArea.Text = "Calcular área";
             this.btnArea.UseVisualStyleBackColor = true;
@@ -112,43 +112,46 @@ namespace Ejercicios_DEIN_CSharp.Forms
             // lblArea
             // 
             this.lblArea.AutoSize = true;
-            this.lblArea.Location = new System.Drawing.Point(18, 193);
+            this.lblArea.Location = new System.Drawing.Point(12, 80);
             this.lblArea.Name = "lblArea";
             this.lblArea.Size = new System.Drawing.Size(29, 13);
-            this.lblArea.TabIndex = 7;
+            this.lblArea.TabIndex = 4;
             this.lblArea.Text = "Área";
             // 
             // txtArea
             // 
-            this.txtArea.Location = new System.Drawing.Point(73, 193);
+            this.txtArea.Enabled = false;
+            this.txtArea.Location = new System.Drawing.Point(67, 77);
             this.txtArea.Name = "txtArea";
-            this.txtArea.Size = new System.Drawing.Size(100, 20);
-            this.txtArea.TabIndex = 8;
+            this.txtArea.Size = new System.Drawing.Size(61, 20);
+            this.txtArea.TabIndex = 5;
             this.txtArea.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtAltura2
             // 
             this.txtAltura2.Enabled = false;
-            this.txtAltura2.Location = new System.Drawing.Point(263, 97);
+            this.txtAltura2.Location = new System.Drawing.Point(146, 73);
             this.txtAltura2.Name = "txtAltura2";
             this.txtAltura2.Size = new System.Drawing.Size(52, 20);
-            this.txtAltura2.TabIndex = 9;
+            this.txtAltura2.TabIndex = 8;
             this.txtAltura2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtBase2
             // 
             this.txtBase2.Enabled = false;
-            this.txtBase2.Location = new System.Drawing.Point(263, 221);
+            this.txtBase2.Location = new System.Drawing.Point(199, 132);
             this.txtBase2.Name = "txtBase2";
             this.txtBase2.Size = new System.Drawing.Size(53, 20);
-            this.txtBase2.TabIndex = 10;
+            this.txtBase2.TabIndex = 9;
             this.txtBase2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(191, 40);
+            this.pictureBox1.BackgroundImage = global::Ejercicios_DEIN_CSharp.Properties.Resources.triangle;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(144, 25);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(203, 188);
+            this.pictureBox1.Size = new System.Drawing.Size(163, 130);
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
@@ -156,7 +159,7 @@ namespace Ejercicios_DEIN_CSharp.Forms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(412, 277);
+            this.ClientSize = new System.Drawing.Size(326, 166);
             this.Controls.Add(this.txtBase2);
             this.Controls.Add(this.txtAltura2);
             this.Controls.Add(this.txtArea);
@@ -169,6 +172,9 @@ namespace Ejercicios_DEIN_CSharp.Forms
             this.Controls.Add(this.txtBase);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Area_Triangulo";
             this.Text = "Area Triangulo";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -42,51 +42,56 @@ namespace Ejercicios_DEIN_CSharp.Forms
             // 
             // txtN1
             // 
-            this.txtN1.Location = new System.Drawing.Point(12, 52);
+            this.txtN1.Location = new System.Drawing.Point(8, 22);
             this.txtN1.Name = "txtN1";
-            this.txtN1.Size = new System.Drawing.Size(100, 20);
-            this.txtN1.TabIndex = 0;
+            this.txtN1.Size = new System.Drawing.Size(84, 20);
+            this.txtN1.TabIndex = 3;
+            this.txtN1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnSuma
             // 
-            this.btnSuma.Location = new System.Drawing.Point(37, 104);
+            this.btnSuma.Location = new System.Drawing.Point(8, 45);
             this.btnSuma.Name = "btnSuma";
-            this.btnSuma.Size = new System.Drawing.Size(75, 23);
-            this.btnSuma.TabIndex = 1;
+            this.btnSuma.Size = new System.Drawing.Size(84, 23);
+            this.btnSuma.TabIndex = 4;
             this.btnSuma.Text = "Sumar";
             this.btnSuma.UseVisualStyleBackColor = true;
             this.btnSuma.Click += new System.EventHandler(this.btnSuma_Click);
             // 
             // btnResta
             // 
-            this.btnResta.Location = new System.Drawing.Point(148, 104);
+            this.btnResta.Location = new System.Drawing.Point(122, 45);
             this.btnResta.Name = "btnResta";
-            this.btnResta.Size = new System.Drawing.Size(75, 23);
-            this.btnResta.TabIndex = 2;
+            this.btnResta.Size = new System.Drawing.Size(84, 23);
+            this.btnResta.TabIndex = 5;
             this.btnResta.Text = "Restar";
             this.btnResta.UseVisualStyleBackColor = true;
             this.btnResta.Click += new System.EventHandler(this.btnResta_Click);
             // 
             // txtN2
             // 
-            this.txtN2.Location = new System.Drawing.Point(148, 52);
+            this.txtN2.Location = new System.Drawing.Point(122, 22);
             this.txtN2.Name = "txtN2";
-            this.txtN2.Size = new System.Drawing.Size(99, 20);
-            this.txtN2.TabIndex = 3;
+            this.txtN2.Size = new System.Drawing.Size(84, 20);
+            this.txtN2.TabIndex = 1;
+            this.txtN2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // res
             // 
-            this.res.Location = new System.Drawing.Point(73, 160);
+            this.res.Enabled = false;
+            this.res.Location = new System.Drawing.Point(69, 88);
             this.res.Name = "res";
-            this.res.Size = new System.Drawing.Size(100, 20);
-            this.res.TabIndex = 4;
+            this.res.Size = new System.Drawing.Size(84, 20);
+            this.res.TabIndex = 7;
+            this.res.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(82, 205);
+            this.btnSalir.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnSalir.Location = new System.Drawing.Point(72, 110);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(75, 23);
-            this.btnSalir.TabIndex = 5;
+            this.btnSalir.TabIndex = 8;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
@@ -94,35 +99,36 @@ namespace Ejercicios_DEIN_CSharp.Forms
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 24);
+            this.label1.Location = new System.Drawing.Point(5, 6);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(74, 13);
-            this.label1.TabIndex = 6;
+            this.label1.TabIndex = 0;
             this.label1.Text = "Primer número";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(159, 24);
+            this.label2.Location = new System.Drawing.Point(119, 6);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(88, 13);
-            this.label2.TabIndex = 7;
+            this.label2.TabIndex = 2;
             this.label2.Text = "Segundo número";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(93, 144);
+            this.label3.Location = new System.Drawing.Point(83, 72);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(55, 13);
-            this.label3.TabIndex = 8;
+            this.label3.TabIndex = 6;
             this.label3.Text = "Resultado";
             // 
             // Suma_Numeros
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(270, 237);
+            this.CancelButton = this.btnSalir;
+            this.ClientSize = new System.Drawing.Size(214, 140);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -132,8 +138,11 @@ namespace Ejercicios_DEIN_CSharp.Forms
             this.Controls.Add(this.btnResta);
             this.Controls.Add(this.btnSuma);
             this.Controls.Add(this.txtN1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Suma_Numeros";
-            this.Text = "Suma Numeros";
+            this.Text = "Suma Números";
             this.ResumeLayout(false);
             this.PerformLayout();
 
