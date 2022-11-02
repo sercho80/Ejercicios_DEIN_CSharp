@@ -1,5 +1,5 @@
 # Ejercicios_DEIN_CSharp
-Ejercicios de Desarrollo de interfaces en C# compactados en un proyecto
+Ejercicios de Desarrollo de interfaces del curso 20/21 en C# compactados en un proyecto
 | Ejercicios | Descripción |
 | ------ | ------ |
 | Comprobar números | Comprueba si 3 números son iguales, diferentes o si hay alguno igual |
